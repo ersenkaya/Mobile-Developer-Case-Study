@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VeriPark Case Study</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">VERIPARK</string>
+    <string name="nav_header_subtitle">IMKB Hisse Senetleri/Endeksler</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_hisse">Hisse ve Endeksler</string>
+    <string name="nav_ascendants">Yükselenler</string>
+    <string name="nav_falling">Düşenler</string>
+    <string name="nav_imkb_30">Hacme Göre - 30</string>
+    <string name="nav_imkb_50">Hacme Göre - 50</string>
+    <string name="nav_imkb_100">Hacme Göre - 100</string>
+    <string name="nav_detail">Hisse Detayları</string>
+
+    <string name="sembol">Sembol: </string>
+    <string name="fiyat">Fiyat: </string>
+    <string name="fark">% Fark: </string>
+    <string name="hacim">Hacim: </string>
+    <string name="alis">Alış: </string>
+    <string name="satis">Satış: </string>
+    <string name="gunluk_dusus">Günlük Düşük: </string>
+    <string name="gunluk_yuksek">Günlük Yüksek: </string>
+    <string name="adet">Adet: </string>
+    <string name="tavan">Tavan: </string>
+    <string name="taban">Taban: </string>
+    <string name="degisim">Değişim: </string>
+
+</resources>

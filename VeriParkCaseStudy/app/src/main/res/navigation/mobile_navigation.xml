@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_stock">
+
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="com.tohan.veriparkcasestudy.ui.stock.StockFragment"
+        android:label="@string/nav_hisse"
+        tools:layout="@layout/fragment_stock" >
+        <action
+            android:id="@+id/action_nav_stock_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ascendants"
+        android:name="com.tohan.veriparkcasestudy.ui.ascendants.AscendantsFragment"
+        android:label="@string/nav_ascendants"
+        tools:layout="@layout/fragment_ascendants" >
+        <action
+            android:id="@+id/action_nav_ascendants_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_falling"
+        android:name="com.tohan.veriparkcasestudy.ui.falling.FallingFragment"
+        android:label="@string/nav_falling"
+        tools:layout="@layout/fragment_falling" >
+        <action
+            android:id="@+id/action_nav_falling_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_imkb_30"
+        android:name="com.tohan.veriparkcasestudy.ui.imkb_30.Imkb30Fragment"
+        android:label="@string/nav_imkb_30"
+        tools:layout="@layout/fragment_imkb_30" >
+        <action
+            android:id="@+id/action_nav_imkb_30_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_imkb_50"
+        android:name="com.tohan.veriparkcasestudy.ui.imkb_50.Imkb50Fragment"
+        android:label="@string/nav_imkb_50"
+        tools:layout="@layout/fragment_imkb_50" >
+        <action
+            android:id="@+id/action_nav_imkb_50_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_imkb_100"
+        android:name="com.tohan.veriparkcasestudy.ui.imkb_100.Imkb100Fragment"
+        android:label="@string/nav_imkb_100"
+        tools:layout="@layout/fragment_imkb_100" >
+        <action
+            android:id="@+id/action_nav_imkb_100_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.tohan.veriparkcasestudy.ui.detail.DetailFragment"
+        android:label="@string/nav_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
