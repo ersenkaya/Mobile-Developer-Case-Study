@@ -11,6 +11,12 @@ import java.util.List;
 public class SearchHelper {
     private ArrayList<StockModel> resultArray = new ArrayList<>();
 
+    /**
+     * Creates a HandShake State for listing.
+     *
+     * @param stockList list to search.
+     * @param charSequence search query.
+     */
     public String[][] searchList(ArrayList<StockModel> stockList, CharSequence charSequence) {
         ArrayList<StockModel> list = stockList;
 
